@@ -1,7 +1,7 @@
 (function ($) {
   $(document).ready(function () {
 
-    $.fn.autocompleteDinamicKey = function (options) {
+    $.fn.autocompleteCustomizableData = function (options) {
       // Defaults msb added new defaults
       var defaults = {
         data: [],

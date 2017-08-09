@@ -6,16 +6,13 @@ import { MaterializeModule } from 'angular2-materialize';
 import { AppComponent } from './app.component';
 
 // components
-import { Autocomplete2Component,
-          } from './components';
 
 //services
 import { CountriesService } from './services';
 
 @NgModule({
     declarations: [
-        AppComponent,
-        Autocomplete2Component
+        AppComponent
     ],
     imports: [
         BrowserModule,
